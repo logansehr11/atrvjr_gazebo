@@ -9,7 +9,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     ld = LaunchDescription()
 
-    packagePath = FindPackageShare('junior_gazebo')
+    packagePath = FindPackageShare('atrvjr_gazebo')
 
     ld.add_action(
         ExecuteProcess(
